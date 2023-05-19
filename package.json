@@ -19,8 +19,5 @@
   "dependencies": {
     "mongodb": "^5.5.0",
     "serve": "^14.2.0"
-  },
-  "engines": {
-    "node": "12.11.1"
   }
 }
