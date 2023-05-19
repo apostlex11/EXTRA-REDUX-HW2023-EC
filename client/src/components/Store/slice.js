@@ -6,7 +6,7 @@ const initialState = {
   cartOpen: false,
   categories: [],
   currentCategory: '',
-  // loading: false,
+  loading: false,
 };
 
 export const productSlice = createSlice({
@@ -65,9 +65,9 @@ export const productSlice = createSlice({
       state.currentCategory = payload.currentCategory;
     },
 
-    // setLoading: (state, { payload }) => {
-    //     state.loading = payload;
-    // }
+    setLoading: (state, { payload }) => {
+        state.loading = payload;
+    }
   },
 });
 
@@ -81,7 +81,7 @@ export const {
   toggleCart,
   updateCategories,
   updateCurrentCategory,
-  // setLoading,
+  setLoading,
 } = productSlice.actions;
 
 export default productSlice.reducer;
