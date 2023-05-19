@@ -17,7 +17,8 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "mongodb": "^5.5.0"
+    "mongodb": "^5.5.0",
+    "serve": "^14.2.0"
   },
   "engines": {
     "node": "18.16.0"
